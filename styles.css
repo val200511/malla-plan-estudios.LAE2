@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eceef0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #222;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  padding: 10px;
+}
+
+.materia {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.aprobada {
+  background-color: #d4edda;
+  border-color: #110350;
+}
+
+.cursando {
+  background-color: #fff3cd;
+  border-color: #d7e607;
+}
